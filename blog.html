@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<meta charset="utf-8">
+		<title>Blog</title>
+	</head>
+	<body>
+	<h1 class="titulo">
+		BLOG
+	</h1>
+	<nav class="estilo-menu">
+		<h4>Categorias</h4>
+	    <a href="#cat1">Viagem</a>
+	    <a href="#cat2">Dogs</a>
+	    <a href="#cat3">Cats</a>
+	</nav>
+
+	<section>
+		<article class="not-last-post">
+			<header>
+				<h3>Post 1</h3>
+				<a href="#autor">Beltrano</a><br>
+				<a href="#cat1">Viagem</a>
+			</header>
+			<p>Ante natoque ac eleifend quisque sed vivamus magna lacus mauris lacus dis a condimentum est placerat vestibulum semper faucibus.A mus a condimentum placerat a magnis dictum odio eu id interdum facilisi... </p>
+			<a href="#">Leia mais</a>
+		</article>
+
+		<article>
+			<header>
+				<h3>Post 2</h3>
+				<a href="">CaraQueEscreveu</a>
+			</header>
+			<p id="unico">Natoque eros bibendum per ut a habitant suscipit proin parturient scelerisque parturient varius curabitur ipsum egestas facilisi turpis convallis ullamcorper.Odio suspendisse elementum dictumst.</p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/K%C3%B6lpinsee_bei_Jabel.jpg/660px-K%C3%B6lpinsee_bei_Jabel.jpg">
+		</article>
+	</section>
+
+	<aside>
+		<form action="" method="get">
+				<label for="c_nome">Nome</label>
+				<input type="text" name="nome" id="c_nome" placeholder="Digite seu nome"><br>
+				<input type="radio" name="gender" value="male" checked> Masculino
+  				<input type="radio" name="gender" value="female"> Feminino<br>
+				<label for="c_email">Email</label>
+				<input type="text" name="email" id="c_email" placeholder="Digite seu email"><hr>
+				<label for="c_cidade">Cidade</label>
+				<input type="text" name="cidade" id="c_cidade" placeholder="Digite sua cidade"><br>
+				<label for="c_estado">Estado</label>
+				<select name="estado">
+					<option value="0">[UF]</option>
+					<option>SC</option>
+					<option>SP</option>
+				</select><hr>
+
+				<textarea name="mensagem" cols="60" rows="5" placeholder="Digite sua mensagem"></textarea><br>
+
+				<label for="cbox">Deseja receber emails?</label>
+				<input type="checkbox" name="newsletter" id="cbox"><br>
+
+				<input type="submit" name="enviar" value="Enviar">
+				<input type="reset" name="reset" value="Apagar">
+		</form>
+	</aside>
+	</body>
+</html>
