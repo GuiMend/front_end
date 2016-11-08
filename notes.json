@@ -1,22 +1,15 @@
 {
 	"notes":[
 		{
-			"title":"Nota1", 
+			"title":"n1", 
 			"content":"bla bla bla", 
 			"hasAlarm": "false",
 			"alarmDate":"", 
 			"imgSrc":""
 		}
 		{
-			"title":"Nota2", 
-			"content":"ssssssssbla", 
-			"hasAlarm": "false",
-			"alarmDate":"", 
-			"imgSrc":""
-		}
-		{
-			"title":"Nota3", 
-			"content":"2dddd333333", 
+			"title":"n2", 
+			"content":"bla bla bla", 
 			"hasAlarm": "false",
 			"alarmDate":"", 
 			"imgSrc":""
