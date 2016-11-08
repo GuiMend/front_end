@@ -1,11 +1,7 @@
 {
-	"notes":[
-		{
 			"title":"titulo", 
 			"content":"bla bla bla", 
 			"hasAlarm": "false",
 			"alarmDate":"", 
 			"imgSrc":""
-		}
-	]
 }
