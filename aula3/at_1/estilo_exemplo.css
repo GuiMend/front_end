@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,600|Roboto');
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+.header-stripe {
+	height: 700px;
+	max-width: 1600px;
+	padding-top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('images/bg.jpg');
+}
+
+.header-stripe__content {
+	height: 175px;
+}
+
+.header-stripe__content .container {
+	background: #333;
+	width: 1200px;
+}
+
+.header-stripe__content__logo {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	width: 250px;
+	background-image: url('images/logo.png');
+}
+
+.header-stripe__content__title {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #222222;
+	font-size: 36px;
+}
+
+.features {
+	position: relative;
+	height: 495px;
+	background-color: #eee;
+}
+
+.features .container {
+	padding: 0 70px;
+	width: 1200px;
+}
+
+.features__content {
+	float: left;
+	width: 300px;
+	height: 120px;
+	margin-top: 55px;
+}
+
+.features__content:last-child  { margin-bottom: 55px; }
+
+.features__content:nth-child(2n) { float: right; }
+.features__content:nth-child(2n-1) { clear: both; }
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color: #222;
+}
+
+.description {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #848484;
+}
+
+.features__cellphone {
+	background-image: url('images/iphone.png');
+	bottom: 25px;
+	position: absolute;
+	width: 400px;
+	height: 800px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-info {
+	background-color: #ddd;
+}
+
+.footer-info .container {
+	width: 1200px;
+	height: 425px;
+}
+
+.footer-info__content {
+	margin-top: 55px;
+	float: left;
+	height: 250px;
+	width: 50%;
+}
+
+.footer-info__video {
+	float: right;
+	height: 315px;
+	max-width: 515px;
+	margin: 55px 0;
+}
+
+.footer-info__content__apple {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url('images/icon-apple.png');
+}
+
+.footer-info__content__android {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url('images/icon-android.png');
+}
+
+.footer-info__content__windows {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url('images/icon-windows.png');
+}
+
+.hover:hover {
+	border-radius: 25px;
+	background-color: #000;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	clear: both;
+}

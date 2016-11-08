@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('slider.css');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: blue;
+	transition: color 500ms 0ms;
+}
+
+a:hover {
+	color: red;
+}
+
+.botao {
+	font-size: 10px;
+	background-color: #ddd;
+	transition: font-size 250ms 400ms linear, background-color 300ms 0ms;
+}
+
+.botao:hover {
+	font-size: 20px;
+	background-color: #923;
+}
+
+.modal-abrir {
+
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0ms 500ms, opacity 500ms 0ms;
+}
+
+.modal.aberto {
+	opacity: 1;
+	visibility: visible;
+	transition: visibility 0ms 0ms, opacity 500ms 0ms;
+}
+
+.modal.aberto .modal-janela {
+	transform: translate(-50%,-50%) scale(1);
+}
+
+.modal-janela {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	padding: 60px 20px 20px;
+	background-color: #fff;
+
+	transform: translate(-50%,-50%) scale(0.7);
+	transition: transform 350ms 0ms;
+}
+
+.modal-fechar {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	border: none;
+	background-color: transparent;
+	text-transform: lowercase;
+	font-weight: bold;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
+.modal-fechar:hover {
+	color: #ddd;
+}
+
+.modal-conteudo {}
+
+
+
+
+
+
+
+
+
+
+
+
+
